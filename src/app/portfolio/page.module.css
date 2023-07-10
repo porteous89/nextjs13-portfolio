@@ -65,6 +65,12 @@
     }
 }
 
+.item:hover {
+    border-color: #53c28b;
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
 .item:hover .title {
     color: #53c28b;
     transform: scale(1.05);
